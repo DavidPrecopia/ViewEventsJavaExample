@@ -11,4 +11,7 @@ public interface IViewContract {
     interface Logic<T> {
         void onEvent(T event);
     }
+
+    interface View {
+    }
 }
