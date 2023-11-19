@@ -13,9 +13,7 @@ public class ViewLogic implements IViewContract.Logic<LogicViewEvents> {
                 // this will have to be cast since field type is Object.
                 event.getData();
                 break;
-            case BURGER_SELECTED:
-                break;
-            case DONE_CLICKED:
+            case BURGER_SELECTED, DONE_CLICKED:
                 break;
         }
     }
